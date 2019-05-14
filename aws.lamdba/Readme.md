@@ -1,9 +1,9 @@
 This poc project is to experience AWS Lambda environment
 
-Two functions are created:
+3 functions are created:
 1. sayHello - a dummy function takes no input and return a string as output
 2. handleRequest - takes in a JSON with a definition as HelloEvent and return a string based on the it
-
+3. helloOrchestration - invoke as an end point then invoke another existing Lambda function with payload and get the result
 
 ============
 sayHello
