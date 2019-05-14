@@ -6,6 +6,7 @@ import com.amazonaws.auth.BasicAWSCredentials;
 
 public class AwsKeyPair {
 
+  // TODO: update as your own access key and secret key
   public static final String key = "something";
   public static final String secret = "something";
 
